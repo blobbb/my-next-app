@@ -1,0 +1,39 @@
+---
+title: "Nebula Interface"
+description: "Realtime product customizer that combines motion design with WebGL lighting and responsive storytelling."
+tags: ["Next.js", "WebGL", "Design Systems"]
+featured: true
+coverImage: "/images/projects/nebula-cover.jpg"
+images:
+  - "/images/projects/nebula-dashboard.jpg"
+demo: "https://example.com/nebula"
+github: "https://github.com/example/nebula"
+date: "2025-03-14"
+---
+
+## Concept
+
+A guided product tour that blends cinematic lighting with dynamic data overlays. Users explore a configurable space while a narrative timeline syncs with interactions.
+
+## Highlights
+
+- Integrated **React Three Fiber** scenes with Framer Motion choreographies.
+- MDX-driven story blocks empower content teams to iterate quickly without touching code.
+- Adaptive performance budgets ensure buttery-smooth motion down to mid-tier mobile GPUs.
+
+## Implementation Details
+
+```tsx
+const lightingRig = useMemo(() => createLightingRig(), []);
+return <Scene lighting={lightingRig} overlays={overlays} />;
+```
+
+## Results
+
+- +42% dwell time on hero product page
+- 18% growth in qualified demo requests within the first quarter
+- Modular storytelling system reused across 3 additional campaigns
+
+![Nebula UI overview](/images/projects/nebula-dashboard.jpg)
+
+> “Working with this system let our content team ship weekly updates without engineering dependencies.”

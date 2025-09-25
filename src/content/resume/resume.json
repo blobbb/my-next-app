@@ -1,0 +1,113 @@
+{
+  "personal": {
+    "name": "Cole Ward",
+    "title": "Network Engineering Intern",
+    "location": "Green Bay, WI",
+    "email": "cole.ward@example.com",
+    "summary": "Network engineering intern who pairs hands-on infrastructure support with a UW-Platteville computer science and data analytics education to keep hybrid fiber-wireless environments running smoothly.",
+    "links": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/colewardwi/" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Nsight",
+      "role": "Network Engineer Intern",
+      "start": "May 2025",
+      "end": "Present",
+      "achievements": [
+        "Assist senior engineers with monitoring core network health, triaging alerts, and coordinating field responses across Northeast Wisconsin.",
+        "Document recurring issues and propose scripts that streamline device configuration updates during maintenance windows."
+      ],
+      "tech": ["Network Monitoring", "Python", "Cisco IOS", "Troubleshooting"]
+    },
+    {
+      "company": "KI",
+      "role": "Shipping Technician",
+      "start": "May 2024",
+      "end": "Sep 2024",
+      "achievements": [
+        "Coordinated outbound logistics for office furniture lines, verifying orders against CAD drawings and bills of materials.",
+        "Improved dock turnaround by reorganizing staging workflows for high-volume summer shipments."
+      ],
+      "tech": ["Logistics", "Inventory Management", "Forklift Operations"]
+    },
+    {
+      "company": "KI",
+      "role": "Assembly Technician",
+      "start": "May 2023",
+      "end": "Aug 2023",
+      "achievements": [
+        "Assembled custom product lines from engineering documentation while upholding daily quality and safety targets.",
+        "Collaborated with process engineers to flag manufacturability issues and recommend ergonomic tooling tweaks."
+      ],
+      "tech": ["Mechanical Assembly", "Quality Assurance", "Blueprint Reading"]
+    },
+    {
+      "company": "Walgreens",
+      "role": "Direct Hitter",
+      "start": "Jan 2023",
+      "end": "May 2023",
+      "achievements": [
+        "Supported pharmacists by organizing prescriptions, managing point-of-sale transactions, and communicating wait times to customers.",
+        "Maintained accuracy across controlled substance logs and nightly inventory counts."
+      ],
+      "tech": ["Pharmacy Operations", "Customer Service", "Retail Systems"]
+    },
+    {
+      "company": "Walmart",
+      "role": "Personal Shopper",
+      "start": "Jun 2021",
+      "end": "Jan 2023",
+      "achievements": [
+        "Fulfilled high-volume online grocery orders with 98% accuracy while meeting tight pickup windows.",
+        "Trained new associates on handheld order systems and best practices for customer satisfaction."
+      ],
+      "tech": ["Order Fulfillment", "Customer Satisfaction", "Retail Technology"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Wisconsin-Platteville",
+      "degree": "B.S. Computer Science & Data Analytics (Expected)",
+      "start": "Sep 2023",
+      "end": "May 2026",
+      "details": [
+        "GPA: 3.7",
+        "Men's Rugby, Cybersecurity Club, Innovation LLC"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Networking & Infrastructure",
+      "skills": [
+        "Network Troubleshooting",
+        "Routing & Switching",
+        "Information Technology",
+        "Problem Solving",
+        "Organization Skills"
+      ]
+    },
+    {
+      "category": "Programming & Automation",
+      "skills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "Object-Oriented Programming",
+        "Scripting"
+      ]
+    },
+    {
+      "category": "Data & Design",
+      "skills": [
+        "Data Analysis",
+        "Data Science",
+        "Unreal Engine",
+        "AutoCAD",
+        "3D Modeling"
+      ]
+    }
+  ]
+}

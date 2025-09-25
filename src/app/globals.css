@@ -1,26 +1,56 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --background: #05060a;
+  --background-alt: #090b12;
+  --foreground: #f7f8ff;
+  --foreground-muted: #98a3c7;
+  --accent-cyan: #37f8ff;
+  --accent-magenta: #ff3ff0;
+  --accent-amber: #ffb347;
+  --border-glow: 0 0 20px rgba(55, 248, 255, 0.25);
+  --ring-glow: 0 0 40px rgba(255, 63, 240, 0.35);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  @apply selection:bg-sky-400/30 selection:text-white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-night-900 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at top left, rgba(55, 248, 255, 0.15), transparent 55%),
+    radial-gradient(circle at 80% 20%, rgba(255, 63, 240, 0.12), transparent 50%),
+    radial-gradient(circle at bottom, rgba(21, 31, 54, 0.8), #05060a 75%);
+}
+
+a {
+  @apply text-sky-300 transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-sky-200;
+}
+
+.border-glow {
+  box-shadow: var(--border-glow);
+}
+
+.text-glow {
+  text-shadow: 0 0 32px rgba(55, 248, 255, 0.45);
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-xl border border-white/5 rounded-3xl shadow-lg;
+}
+
+main {
+  min-height: 100vh;
 }
